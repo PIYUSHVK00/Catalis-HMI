@@ -1,0 +1,9 @@
+[Unit]
+Description=Control LEDs 
+
+[Service]
+Type=simple
+ExecStart=##
+
+[Install]
+WantedBy=multi-user.target

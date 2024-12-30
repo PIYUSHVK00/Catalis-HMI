@@ -1,0 +1,10 @@
+[Unit]
+Description=Command Executor
+BindsTo=catalis-chmi@%i.service
+ 
+[Service]
+Type=simple
+ExecStart=/root/button
+
+[Install]
+WantedBy=multi-user.target
